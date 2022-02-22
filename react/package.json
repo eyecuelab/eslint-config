@@ -4,7 +4,7 @@
   "description": "Our ESLint config for React.",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild .eslintrc.js --bundle --platform=node --outfile=index.js"
+    "build": "esbuild config.js --bundle --platform=node --outfile=index.js"
   },
   "repository": {
     "type": "git",
