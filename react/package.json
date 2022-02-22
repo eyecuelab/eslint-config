@@ -8,23 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/jeremybanka/eslint-config"
+    "url": "github.com/eyecuelab/eslint-config"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "eslint": ">= 7",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-jest": "^25.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.22.0",
-    "prettier": "^2.4.1",
-    "typescript": "^4.4.4"
+    "eslint-plugin-react": "^7.28.0",
+    "prettier": "^2.5.1",
+    "react-scripts": "^5.0.0",
+    "typescript": "^4.5.5"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^21.0.1",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "esbuild": "^0.14.0",
