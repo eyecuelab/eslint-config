@@ -1,0 +1,45 @@
+{
+  "name": "@eyecuelab/eslint-config",
+  "version": "1.0.0",
+  "description": "Our approach to formatting ECMAscript.",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eyecuelab/eslint-config.git",
+    "directory": "pkg/npm/eslint-config"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jeremybanka",
+  "license": "MIT",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": ">= 7",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^25.2.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "bugs": {
+    "url": "https://github.com/eyecuelab/eslint-config/issues"
+  },
+  "homepage": "https://github.com/eyecuelab/eslint-config#readme",
+  "keywords": [
+    "eslint"
+  ]
+}
