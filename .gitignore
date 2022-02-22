@@ -1,3 +1,7 @@
+# CUSTOM
+# this is the react/config.js with the base bundled in
+react/index.js
+
 # Logs
 logs
 *.log
