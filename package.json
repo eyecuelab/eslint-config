@@ -1,6 +1,6 @@
 {
   "name": "@eyecuelab/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Our approach to formatting ECMAscript.",
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": ">= 7",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-jest": "^25.2.1",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.4.1",
     "typescript": "^4.4.4"

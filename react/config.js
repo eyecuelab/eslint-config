@@ -4,7 +4,7 @@ var baseConfig = require(`../.eslintrc`)
 
 module.exports = {
   extends: [...baseConfig.extends, `plugin:react/recommended`],
-  plugins: [...baseConfig.plugins, `react`],
+  plugins: [...baseConfig.plugins, `react`, `react-hooks`],
   parser: baseConfig.parser,
   parserOptions: {
     ...baseConfig.parserOptions,

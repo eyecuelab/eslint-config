@@ -1,6 +1,6 @@
 {
   "name": "@eyecuelab/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Our ESLint config for React.",
   "main": "index.js",
   "scripts": {
@@ -35,6 +35,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.5.0",
     "typescript": "^4.4.4"
   },
