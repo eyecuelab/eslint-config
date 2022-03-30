@@ -11,18 +11,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "jeremybanka",
+  "contributors": [
+    "jeremybanka",
+    "ashmortar"
+  ],
   "license": "MIT",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "eslint": ">= 7",
-    "eslint-config-prettier": "^8.4.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "^26.1.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.4.1",
-    "typescript": "^4.4.4"
+    "@typescript-eslint/eslint-plugin": ">=5.17.0",
+    "@typescript-eslint/parser": ">=5.17.0",
+    "eslint": ">=8.12.0",
+    "eslint-config-prettier": ">=8.5.0",
+    "eslint-plugin-import": ">=2.25.4",
+    "eslint-plugin-jest": ">=26.1.3",
+    "eslint-plugin-prettier": ">=4.0.0",
+    "prettier": ">=2.6.1",
+    "typescript": ">=4.6.3"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.17.0",
