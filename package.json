@@ -1,6 +1,6 @@
 {
   "name": "@eyecuelab/eslint-config",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Our approach to formatting ECMAscript.",
   "repository": {
     "type": "git",
