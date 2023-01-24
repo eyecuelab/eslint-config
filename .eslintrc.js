@@ -3,6 +3,7 @@ module.exports = {
     `eslint:recommended`,
     `prettier`,
     `plugin:@typescript-eslint/recommended`,
+    `plugin:@typescript-eslint/recommended-requiring-type-checking`,
     `plugin:import/recommended`,
   ],
   plugins: [`prettier`, `import`, `@typescript-eslint`],
@@ -35,6 +36,10 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": `off`,
     "@typescript-eslint/no-explicit-any": `warn`,
     "@typescript-eslint/explicit-module-boundary-types": `error`,
+    "@typescript-eslint/quotes": [
+      "error",
+      "backtick"
+    ],
     "@typescript-eslint/consistent-type-imports": [
       `error`,
       {
@@ -164,7 +169,7 @@ module.exports = {
         enforceForRenamedProperties: false,
       },
     ],
-    "quotes": [`error`, `backtick`],
+    "quotes": `off`,
     "quote-props": [`error`, `consistent`, { unnecessary: false }],
     "semi": [`error`, `never`],
     "semi-style": [`error`, `last`],
