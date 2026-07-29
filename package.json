@@ -2,7 +2,7 @@
   "name": "@eyecuelab/eslint-config",
   "version": "2.0.0",
   "description": "Our approach to formatting ECMAscript.",
-  "packageManager": "yarn@3.5.0",
+  "packageManager": "yarn@4.18.0",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/eyecuelab/eslint-config.git",
